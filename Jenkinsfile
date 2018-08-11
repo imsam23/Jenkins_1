@@ -1,17 +1,17 @@
 pipeline {
     agent any
     stages {
-        stage('\u2776 BUILD') {
+        stage( BUILD') {
         steps {
         echo 'Building'
             }
         }
-        stage('\u2777 TEST') {
+        stage('TEST') {
         steps {
             echo 'Testing'
             }
         }
-        steage('\u2778 DEPLOY') {
+        steage('DEPLOY') {
         steps {
             echo 'Deploying'
             }
