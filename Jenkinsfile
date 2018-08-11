@@ -11,7 +11,7 @@ pipeline{
             echo 'Testing'
             }
         }
-        steage('DEPLOY'){
+        stage('DEPLOY'){
         steps{
             echo 'Deploying'
             }
